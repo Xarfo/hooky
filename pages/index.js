@@ -1,16 +1,7 @@
-import { useState } from 'react'
+import Counter from '../components/Counter'
+import WindowSize from '../components/WindowSize'
 
-function Counter () {
-  const [count, setCount] = useState(0)
-  return <div>
-    <p>{count}</p>
-    <button onClick={() => setCount(count + 1)}>
-      inc
-    </button>
-    <button onClick={() => setCount(count - 1)}>
-      dec
-    </button>
-  </div>
-}
-
-export default Counter
+export default () => <div>
+  <Counter /> 
+  {/*<WindowSize />*/}
+</div>
