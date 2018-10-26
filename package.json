@@ -1,0 +1,19 @@
+{
+  "name": "hooky",
+  "description": "exploring react hooks",
+  "version": "0.0.0",
+  "repository": {
+    "url": "git://github.com/coetry/hooky.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "dev": "next"
+  },
+  "dependencies": {
+    "next": "^7.0.2",
+    "react": "^16.7.0-alpha.0",
+    "react-dom": "^16.7.0-alpha.0"
+  },
+  "devDependencies": {},
+  "author": "Allen Hai <allenhai03@gmail.com> (https://allenhai.now.sh)"
+}
