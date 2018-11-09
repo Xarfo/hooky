@@ -1,1 +1,1 @@
-exploring react hooks: recompose / redux built into vanilla react
+let's play hooky!
