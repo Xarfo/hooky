@@ -3,7 +3,7 @@ import {useState, useEffect} from 'react'
 export default function Counter() {
   const [count, setCount] = useState(0)
 
-  useEffect(() => console.log('re-rendered'))
+  useEffect(() => console.log('re-rendered'), [])
 
   return (
     <div>
